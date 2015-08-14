@@ -1,11 +1,12 @@
 require 'rmagick'
 require 'prime'
 
-N = 50
-W = 10
+#N = 700; W = 5 # large
+N = 50; W = 10 # small
 
-Background = '#F0F0F0'
-Foregrand = '#86D360'
+Background = '#F0F0F0'; Foregrand = '#86D360' # github
+#Background = '#E9EAED'; Foregrand = '#415E9B' # facebook
+#Background = 'white'; Foregrand = 'black'
 
 # stolen from http://rosettacode.org/wiki/Ulam_spiral_(for_primes)#Ruby
 def cell(x, y, start=1)
